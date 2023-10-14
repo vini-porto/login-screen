@@ -87,7 +87,7 @@ form > div.campo
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    
     margin: 5px 0px;
 }
 
@@ -107,7 +107,7 @@ div.campo > input
     height: 100%;
     border: none;
     padding: 5px;
-    transform: translateY(-9px);
+    transform: translateY(-11px);
 }
 
 div.campo > input:focus-within
