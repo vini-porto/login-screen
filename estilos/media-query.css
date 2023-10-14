@@ -3,6 +3,13 @@
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
 
+    /* CONFIGURAÇÃO PARA TABLET*/
+
+    section#login
+    {
+        width: 80vw;
+        height: 340px;
+    }
     body
     {
         background: url(../imagens/pexels-sean-whang-804269.jpg) no-repeat;
@@ -35,11 +42,19 @@
     div#formulario > p
     {
         font-size: 1.1em;
+        margin: 19px 0px;
     }
 }
 
 @media screen and (min-width: 992px)
 {
+
+    section#login
+    {
+        width: 80vw;
+        height: 440px;
+    }
+
     body
     {
         background: url(../imagens/pexels-sean-whang-804269.jpg) no-repeat;
@@ -72,5 +87,6 @@
     div#formulario > p
     {
         font-size: 1.3em;
+        margin: 30px 0px;
     }
 }
